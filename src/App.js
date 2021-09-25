@@ -20,7 +20,7 @@ function App() {
           <div className="flex gap-2">
 
             <span className="text-black text-xl font-normal">Please contact our </span>
-            <a href="#" className="text-blue-500 text-xl font-normal underline">server mods</a>
+            <a href="#" className="text-blue-500 text-xl font-normal underline hover:text-blue-600">server mods</a>
             <span className="text-black text-xl font-normal">for more info</span>
 
           </div>
