@@ -10,9 +10,9 @@ function App() {
         <div className="my-auto h-3/4 flex flex-col justify-center items-center gap-4">
 
           <div className="flex flex-gap-2">
-            <p className="four font-bold text-blue-500">4</p>
-            <p className="four font-bold text-blue-500">0</p>
-            <p className="four font-bold text-blue-500">4</p>
+            <p className="four font-semibold text-blue-500">4</p>
+            <p className="four font-semibold text-blue-500">0</p>
+            <p className="four font-semibold text-blue-500">4</p>
           </div>
 
           <p className="not-found-text text-black text-3xl text-center font-normal">The page you are looking for could not be found!</p>
