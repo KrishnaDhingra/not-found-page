@@ -8,23 +8,17 @@ function App() {
 
       <Navbar/>
 
-        <div className="inner-container grid place-items-center">
+        <div className="px-2 inner-container grid place-items-center">
           
-          <img className="not-found-image" src={NotFoundImage} alt="" />
+          <img className="transform scale-100 sm:scale-90 lg:scale-75 not-found-image" src={NotFoundImage} alt="" />
 
 
           <div className="flex flex-col gap-3">
 
-            <p className="not-found-text text-black text-center font-normal">The page you are looking for could not be found!</p>
+              <p className="not-found-text text-black text-2xl sm:text-3xl text-center font-normal">The page you are looking for could not be found!</p>
 
-            <div className="flex gap-2 justify-center">
-
-              <span className="text-black text-xl font-normal">Please contact our </span>
-              <a href="#" className="text-blue-500 text-xl font-normal underline hover:text-blue-600">server mods</a>
-              <span className="text-black text-xl font-normal">for more info</span>
-
-            </div>
-
+              <span className="text-center text-black text-xl font-normal">Please contact our<a href="#" className="mx-2 server-mods text-xl font-normal underline hover:text-blue-600">server mods</a>for more info</span>
+        
           </div>
 
         </div>
