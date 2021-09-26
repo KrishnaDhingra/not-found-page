@@ -15,7 +15,7 @@ function App() {
 
           <div className="flex flex-col gap-3">
 
-            <p className="not-found-text text-black text-3xl text-center font-normal">The page you are looking for could not be found!</p>
+            <p className="not-found-text text-black text-center font-normal">The page you are looking for could not be found!</p>
 
             <div className="flex gap-2 justify-center">
 
