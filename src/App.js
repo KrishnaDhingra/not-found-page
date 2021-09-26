@@ -8,7 +8,7 @@ function App() {
 
       <Navbar/>
 
-        <div className="px-2 inner-container grid place-items-center">
+        <div className="px-2 inner-container flex flex-col justify-center md:grid place-items-center">
           
           <img className="transform scale-100 sm:scale-90 lg:scale-75 not-found-image" src={NotFoundImage} alt="" />
 
