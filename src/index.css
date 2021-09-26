@@ -12,5 +12,11 @@ body {
   font-size: 16rem;
 }
 .not-found-text{
-  margin-top: -4rem;
+  margin-top: -8rem;
+}
+.inner-container{
+  height: calc(100vh - 85px)
+}
+.not-found-image{
+  transform: scale(0.73);
 }
